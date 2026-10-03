@@ -1,0 +1,23 @@
+PUT https://stunning-goggles-6965qv7jwvr5c469x-3000.app.github.dev/api/cursos/programacion
+CONTENT-TYPE: application/json
+
+{
+	"id": 2,
+    "titulo": "Python intermedio con proyrctos",
+    "lenguaje": "python",
+    "vistas": 123996,
+    "nivel": "intermedio"
+}
+
+
+PATCH https://stunning-goggles-6965qv7jwvr5c469x-3000.app.github.dev/api/cursos/programacion/2
+CONTENT-TYPE: application/json
+
+{
+    "titulo": "Python intermedio con proyectos",
+    "vistas": 123996
+}
+
+DELETE https://stunning-goggles-6965qv7jwvr5c469x-3000.app.github.dev/api/cursos/programacion/1
+
+
